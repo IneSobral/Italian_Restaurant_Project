@@ -1,0 +1,203 @@
+html,
+body {
+  height: 100%;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.gradient {
+  background: rgb(250, 134, 106);
+  background: linear-gradient(
+    322deg,
+    rgba(250, 134, 106, 1) 2%,
+    rgba(230, 197, 175, 1) 30%,
+    rgba(250, 240, 204, 0.5960264900662251) 67%
+  );
+}
+
+.header_btn {
+  color: black;
+}
+
+.page-header {
+  margin-top: 4rem;
+  font-size: 1.25rem;
+  color: rgb(29, 29, 29);
+  padding-top: 3rem;
+}
+
+.header-photo {
+  width: 30rem;
+  box-shadow: 0 10px 30px 5px rgba(29, 29, 29, 0.6);
+}
+
+.logo {
+  width: 3.5rem;
+}
+
+.review {
+  background-color: #faf8f5;
+  text-align: center;
+
+  border: 1px solid #faf8f5;
+}
+
+.review_heading {
+  margin: 3rem auto;
+}
+
+.review_p {
+  font-style: italic;
+}
+
+.review_logo {
+  width: 5rem;
+}
+.review_logo2 {
+  width: 3rem;
+}
+.group {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.groups-title {
+  border-bottom: 1px solid rgb(181, 179, 179);
+}
+
+.grupo-imagem {
+  padding: 3rem;
+}
+.salas {
+  font-style: italic;
+}
+
+.salas:hover {
+  text-decoration: underline;
+}
+
+.restaurant-img {
+  min-width: 20rem;
+}
+
+.feature ul {
+  padding-left: 2rem;
+  list-style-type: none;
+}
+
+.feature ul li {
+  padding-left: 2rem;
+  background-image: url(../img/check.svg);
+  background-repeat: no-repeat;
+}
+
+.especialidades {
+  background-color: #faf8f5;
+}
+
+.especialidades_heading {
+  border-bottom: 1px solid rgb(179, 179, 179);
+}
+
+.cards {
+  background-color: #faf8f5;
+  padding: 3rem auto;
+}
+
+.card {
+  box-shadow: 8px 8px 15px 5px rgba(54, 54, 54, 0.6);
+  transition: all 0.2s ease-in-out;
+}
+
+.card_content {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+
+.cards_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.location-img {
+  position: relative;
+}
+
+.location-heading {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.location-img:hover .location-img_lisboa {
+  opacity: 0.3;
+}
+
+.location-img:hover .location-img_side {
+  opacity: 1;
+}
+
+.location-img_side {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.location-img_lisboa {
+  max-width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+  opacity: 1;
+}
+
+.location-pg {
+  background-color: #04aa9f;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.footer_logos img {
+  width: 2rem;
+  padding-left: 0.4rem;
+}
+
+.footer_logos a img:hover {
+  transform: scale(1.3);
+}
+
+.contacts {
+  background-color: #faf8f5;
+  padding-top: 3rem;
+}
+
+label {
+  color: #333;
+}
+
+.btn-send {
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  width: 80%;
+  margin: 1rem auto;
+}
+.help-block.with-errors {
+  color: #ff5050;
+  margin-top: 5px;
+}
+
+.card {
+  margin-left: 10px;
+  margin-right: 10px;
+}
